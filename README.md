@@ -1,4 +1,6 @@
-# pass.in
+# :star2: Projeto: pass.in
+
+Este projeto foi realizado durante o evento NLW Unite na trilha de NodeJS.
 
 O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**. 
 
