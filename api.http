@@ -1,0 +1,35 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": 1,
+    "details": "null",
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/5bae430e-2495-44b5-a2da-529a8955635f/attendees
+Content-Type: application/json
+
+{
+    "name": "Guilherme Onizio",
+    "email": "teste3@gmail.com"
+}
+
+
+###
+
+GET http://localhost:3333/events/5bae430e-2495-44b5-a2da-529a8955635f
+
+###
+
+GET http://localhost:3333/attendees/2/badge
+
+###
+GET http://localhost:3333/attendees/2/check-in
+
+
+###
+
+GET http://localhost:3333/events/5bae430e-2495-44b5-a2da-529a8955635f/attendees?query=guilherme
